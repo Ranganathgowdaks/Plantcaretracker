@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporting</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f4f6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        b {
+            color: #007bff;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        .highlight {
+            background-color: #f9fafb;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+        }
+
+        .highlight p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello! Thank you for updating your data! Our team will contact you soon.</h1>
+        <p>Weather: <b>{{plantdata.weather}}</b></p>
+        <p>Temperature: <b>{{plantdata.temperature}}°C</b></p>
+        <p>Watered: <b>{{plantdata.watered}}</b></p>
+        <p>Fertilized: <b>{{plantdata.fertilized}}</b></p>
+        <p>Height: <b>{{plantdata.height}}cm</b></p>
+        <p>Health Condition: <b>{{plantdata.healthCondition}}</b></p>
+        <p>Diseases: <b>{{plantdata.diseases}}</b></p>
+        <p>Pruning: <b>{{plantdata.pruning}}</b></p>
+        <p>Repotting: <b>{{plantdata.repotting}}</b></p>   
+        <center><button >OK</button></center>
+
+        <div class="highlight">
+            <h2>Important Notice</h2>
+            <p>Please make sure to follow the recommendations provided for optimal plant care.</p>
+            <p>If you have any questions, feel free to contact our support team.</p>
+        </div>
+    </div>
+</body>
+</html>

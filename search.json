@@ -1,0 +1,151 @@
+[
+    {
+        "id": 1,
+        "name": "African Violet Plant",
+        "img": "africanviolet.jpg",
+        "price":100,
+        "discount":50
+    },
+    {
+        "id": 2,
+        "name": "Snake Plant",
+        "img": "snake.jpg",
+        "price":100,
+        "discount":99
+    },
+    {
+        "id": 3,
+        "name": "Aloe Vera Plant",
+        "img": "aleovera.jpg",
+        "price":500,
+        "discount":400
+    },
+    {
+        "id": 4,
+        "name": "Anthurium Plant",
+        "img": "anthurium.jpg",
+        "price":1000,
+        "discount":900
+    },
+    {
+        "id": 5,
+        "name": "Azalea Plant",
+        "img": "azaleajpg",
+        "price":5000,
+        "discount":4000
+    },
+    {
+        "id": 6,
+        "name": "Rose Plant",
+        "img": "rose.jpg",
+        "price":1000,
+        "discount":900
+    },
+    {
+        "id": 7,
+        "name": "Daffodil Plant",
+        "img": "daffodil.jpg",
+        "price":1000,
+        "discount":900
+    },
+    {
+        "id": 8,
+        "name": "Fern Plant",
+        "img": "fern.jpg",
+        "price":1000,
+        "discount":900
+        
+    },
+    {
+        "id":9,
+        "name":"Boston",
+        "img":"bostonfern.jpg",
+        "price":1000,
+        "discount":900
+    },
+    {
+        "id":10,
+        "name":"Bougainvilla",
+        "img":"bougainvilla.jpg",
+        "price":2000,
+        "discount":1000
+    },
+    {
+        "id":11,
+        "name":"cactus",
+        "img":"cactus.jpg",
+        "price":200,
+        "discount":100
+    },
+    {
+        "id":11,
+        "name":"Daffodil Plant",
+        "img":"daffodil.jpg",
+        "price":1000,
+        "discount":900
+    },
+    {
+        "id":12,
+        "name":"Fern Plant",
+        "img":"fern.jpg",
+        "price":400,
+        "discount":300
+    },
+    {
+        "id":13,
+        "name":"fiddle leaf fig",
+        "img":"fiddleleaffig.jpg",
+        "price":2000,
+        "discount":1500
+    },
+    {
+        "id":14,
+        "name":"Boston",
+        "img":"bostonfern.jpg",
+        "price":1000,
+        "discount":900
+    },
+    {
+        "id":15,
+        "name":"geranium",
+        "img":"geranium.jpg",
+        "price":360,
+        "discount":300
+    },
+    {
+        "id":16,
+        "name":"hosta",
+        "img":"hosta.jpg",
+        "price":1000,
+        "discount":900
+    },
+    {
+        "id":17,
+        "name":"jade",
+        "img":"jade.jpg",
+        "price":500,
+        "discount":400
+    },
+    {
+        "id":18,
+        "name":"hydrange",
+        "img":"hydrange.jpg",
+        "price":800,
+        "discount":700
+    },
+    {
+        "id":19,
+        "name":"lily",
+        "img":"lily.jpg",
+        "price":1000,
+        "discount":900
+    },
+
+    {
+        "id":20,
+        "name":"lavender",
+        "img":"lavender.jpg",
+        "price":1000,
+        "discount":900
+    }
+]

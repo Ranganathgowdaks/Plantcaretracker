@@ -1,28 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Signup Form</title>
-    <link rel="stylesheet" type="text/css" href="signup.css">
+    <title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
 </head>
 <style>
     body
 {
     margin: 0;
     padding: 0;
-    background-color: rgb(251, 243, 243);
+    background-color:rgb(251, 243, 243);
     font-family: 'Arial';
 }
-.signup{
+.login{
         width: 382px;
         
-       height:470px;
         margin: auto;
         margin: 20 0 0 450px;
         padding-top:20px;
         padding-left: 80px;
         padding-bottom: 80px;
         padding-right: 80px;
-        background: rgb(211, 239, 211);
+        background:rgb(211, 239, 211);
         border-radius: 15px ;
 
 }
@@ -34,13 +33,6 @@ h2{
 label{
     color:black;
     font-size: 17px;
-}
-#Uname{
-    width: 300px;
-    height: 30px;
-    border: none;
-    border-radius: 3px;
-    padding-left: 8px;
 }
 #Email{
     width: 300px;
@@ -57,21 +49,17 @@ label{
     padding-left: 8px;
 
 }
-#phonenumber{
-    width: 300px;
-    height: 30px;
-    border: none;
-    border-radius: 3px;
-    padding-left: 8px;
-}
-#signup{
+#log{
     width: 300px;
     height: 30px;
     border: none;
     border-radius: 17px;
     padding-left: 7px;
     color: black;
+
+
 }
+
 span{
     color: white;
     font-size: 17px;
@@ -97,37 +85,31 @@ a{
     margin-left: 10px;
     margin-top: 10px;
 }
-.signup{
-    background-color: rgb(211, 239, 211);
-}
 </style>
 <body>
-    <h2>Signup Page</h2><br>
+    <h2>Login Page</h2><br>
     
-    <div class="signup">
-    <form id="signup" method="get" >
+    <div class="login">
+    <form id="login" method="POST" >
         <img src="logo.jpg" class="logo"><br>
         <div class="form">
-        <label class="username"><b>Username</b></label>
-        <input type="text" name="Uname" id="Uname" placeholder="Username"><br><br>
-        <label><b>Email</b></label>
+        <label><b>Enter Email</b></label>
         <input type="email" name="Email" id="Email" placeholder="Email"><br><br>
-        <label><b>Phone</b></label>
-        <input type="number" name="phonenumber" id="phonenumber" placeholder="mobile"><br><br>
         <label><b>Password</b></label>
-        <input type="password" name="Pass" id="Pass" placeholder="Password"><br><br>
-        <input type="submit" name="signup" id="signup" value="Sign Up Here"><br><br>
+        <input type="password" name="pass" id="Pass" placeholder="Password"><br><br>
+        <input type="submit" name="log" id="log" value="Log In Here"><br><br>
+        <a href="signup"  id="signupbt">signup</a><br><br>
         <input type="checkbox" id="check">
-        <span>Agree to Terms and Conditions</span><br>
+        <span>Remember me</span><br>
        <a href="#">Forgot Password</a></div>
     </form>
 </div>
 
 <script>
-    function validateSignup() {
-        // Perform signup validation here (e.g., check if passwords match, validate email)
-        // For now, let's assume signup is successful
-        alert("Signup successful!");
+    function validateLogin() {
+        // Perform login validation here (e.g., check credentials)
+        // For now, let's assume login is successful
+        alert("Login successful!");
         return true; // Return false if you want to prevent the form from submitting
     }
 </script>
