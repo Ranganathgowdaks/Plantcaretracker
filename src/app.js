@@ -36,8 +36,8 @@ app.use(express.static(path.join(__dirname, '../public')));
 app.use(express.static(path.join(__dirname, '../public/images')));
 
 // Route for home page
-app.get('/', (req, res) => {
-    res.render('home');
+app.get('/',async (req, res) => {
+   res.render('home')
 });
 //home
 app.get('/home',async(req,res)=>{
